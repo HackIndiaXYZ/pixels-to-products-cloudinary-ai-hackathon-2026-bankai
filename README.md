@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-**Deployed application:** [https://list-ready.vercel.app](https://list-ready.vercel.app)
+**Deployed application:** [https://list-ready.vercel.app](https://listready-eight.vercel.app/)
 
 > The live deployment is the judge-facing demo. No local setup is required for evaluation.
 
