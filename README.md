@@ -4,9 +4,17 @@
 
 > "Fix your product photos before the marketplace does."
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-AmArChOuBeYu2%2FListReady-blue?logo=github)](https://github.com/AmArChOuBeYu2/ListReady)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-HackIndiaXYZ%2Fpixels--to--products--cloudinary--ai--hackathon--2026--bankai-blue?logo=github)](https://github.com/HackIndiaXYZ/pixels-to-products-cloudinary-ai-hackathon-2026-bankai)
 [![Track](https://img.shields.io/badge/Hackathon-Pixels%20to%20Products%202026-violet)](https://cloudinary.com)
 [![Track PS-01](https://img.shields.io/badge/Track-PS--01%20AI%20Media%20Pipelines-indigo)](#hackathon-track)
+
+---
+
+## Live Demo
+
+**Deployed application:** [https://list-ready.vercel.app](https://list-ready.vercel.app)
+
+> The live deployment is the judge-facing demo. No local setup is required for evaluation.
 
 ---
 
@@ -159,6 +167,7 @@ flowchart LR
 - **Styling**: Tailwind CSS v4, Lucide React Icons
 - **Media Processing**: Cloudinary Node.js SDK v2
 - **Pixel Analysis**: Sharp (C++ libvips binding)
+- **Deployment**: Vercel
 - **Security**: Strict CSP, SSRF Hostname Allowlisting, Server-side API Secret Isolation
 
 ---
@@ -173,14 +182,9 @@ flowchart LR
 ### Quickstart
 
 ```bash
-# Clone the repository
-git clone https://github.com/AmArChOuBeYu2/ListReady.git
-cd ListReady
-
-# Install dependencies
+git clone https://github.com/HackIndiaXYZ/pixels-to-products-cloudinary-ai-hackathon-2026-bankai.git
+cd pixels-to-products-cloudinary-ai-hackathon-2026-bankai
 npm install
-
-# Configure environment variables
 cp .env.example .env.local
 ```
 
@@ -231,5 +235,6 @@ Access `/test-pipeline` locally to inspect individual rule outputs, raw JSON pay
 
 - **Event**: Pixels to Products — Cloudinary AI Hackathon 2026
 - **Track**: PS-01 · AI Media Pipelines
-- **Repository**: [https://github.com/AmArChOuBeYu2/ListReady](https://github.com/AmArChOuBeYu2/ListReady)
+- **Repository**: [https://github.com/HackIndiaXYZ/pixels-to-products-cloudinary-ai-hackathon-2026-bankai](https://github.com/HackIndiaXYZ/pixels-to-products-cloudinary-ai-hackathon-2026-bankai)
+- **Live Demo**: [https://list-ready.vercel.app](https://list-ready.vercel.app)
 - **License**: MIT
